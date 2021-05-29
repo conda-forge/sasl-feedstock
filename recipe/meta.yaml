@@ -1,5 +1,5 @@
 {% set name = "sasl" %}
-{% set version = "0.3.0a1" %}
+{% set version = "0.3a1" %}
 {% set sha256 = "61f405c1a7916c55cb2e89bbc12dafd6cb18c9c49d68ed8f0850a9b293a71c87" %}
 
 package:
