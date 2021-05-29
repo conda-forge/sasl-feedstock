@@ -1,6 +1,6 @@
 {% set name = "sasl" %}
-{% set version = "0.2.1" %}
-{% set sha256 = "61f405c1a7916c55cb2e89bbc12dafd6cb18c9c49d68ed8f0850a9b293a71c87" %}
+{% set version = "0.3a1" %}
+{% set sha256 = "a513d2536b8a65a9301d4091384a1e7ee5512d64cd5fc26001535dde5940ad5a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1002
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: True  # [win]
 
